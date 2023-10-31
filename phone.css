@@ -1,0 +1,41 @@
+/* body{
+    background-color: red;
+} */
+ 
+.row{
+    flex-direction: column;
+    }
+    .main{
+        right: 50;
+    }
+    .navbar ul li a{
+        padding:3px 10px;
+    }
+    #intro{
+        padding: 0px 20px;
+        right: 8000000;
+        top: 100000;
+        font-size:12px;
+        flex-direction: column;
+    }
+   
+   
+    @media (max-width: 768px) {
+        
+.navbar ul li a {
+    padding: 8px 20px; 
+}
+    }
+
+@media (min-width: 768px) {
+    .navbar ul li a {
+        padding: 8px 40px; 
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .navbar ul li a {
+        padding: 8px 70px; 
+    }
+}
